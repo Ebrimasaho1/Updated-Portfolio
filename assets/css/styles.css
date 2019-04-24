@@ -1,0 +1,203 @@
+.navbar {
+    position: absolute;
+    background-color: white;
+    border-bottom: inline;
+    padding-bottom: 0;
+    width:100%;
+    top:0;
+}
+#mynav {
+    padding-top:0 !important;
+    
+}
+.wrapper{
+    color:white;
+}
+#animate{
+    background-color:teal;;
+    color:white;
+}
+
+
+a {
+    left:0px;
+    margin-left:20%;
+    color:white
+    
+}
+
+.navbar{
+    background-color:teal;   
+}
+
+ body{
+     background-color:lightgray;
+     width:100%;
+     background-color:white;
+     -webkit-animation-name: example; 
+     -webkit-animation-duration: 4s; 
+    
+     animation: example 4s infinite;   
+     animation-direction: alternate;   
+   }
+   @keyframes example {
+       from {background-color: rgb(194, 209, 209);}
+       to {background-color:rgb(100, 194, 194);}
+     }
+     
+ #container{
+    margin-top:100px;
+  
+ }
+ .row{
+  margin-left:20%;
+ }
+
+ img{
+     widows: 110px;
+     height:110px;
+     padding-top:5px; 
+ }
+ h3{
+     color:teal;
+ }
+ p {
+     float:right;
+ }
+ footer {
+    position:fixed;
+    background-color: gray;
+    width: 100%;
+    padding:10px;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    border-top-style: inset;
+    border-top-width: 5px;
+    border-top-color:teal;
+
+ }
+ .portcontainer {
+     margin-top:70px;
+     background-color: white;
+     padding:10px;
+     width:52%;
+     position: absolute;
+     margin-left:19.8%;
+     margin-right:10%;
+     margin-bottom:15px;
+ }
+ .projdiv{
+    position: relative;
+    width: 140px 
+ }
+ .firstWriting{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left:0;
+    color:white;
+    background-color: teal;
+    width:100%;
+    height:40px;
+}
+.secwriting{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left:0;
+    color:white;
+    background-color: teal;
+    width:100%;
+    height:40px;
+}
+.thirdwriting{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left:0;
+    color:white;
+    background-color: teal;
+    width:100%;
+    height:40px;
+}
+ 
+.forthwriting{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left:0;
+    color:white;
+    background-color: teal;
+    width:100%;
+    height:40px;  
+}
+.fifthwriting{
+    position: absolute;
+    text-align: center;
+    bottom:0;
+    left:0;
+    color:white;
+    background-color: teal;
+    width:100%;
+    height:40px;
+}
+.links{
+    width:100%;
+}
+ #firstcol{
+     margin-left:15px;
+ }
+ #seccol{
+    margin-left:15px; 
+ }
+
+.imagesize{
+    width:140px;
+    height:140px;
+}
+.secondrow{
+    margin-right:0;
+    margin-top:0;
+    position:relative;
+}
+#rowpic{
+    background:white;
+    margin-right:-20px;
+    margin-left:-25px;
+    margin-top:0%;
+}
+#portfoliopage{
+    margin-top:0;
+}
+.contactdetails{
+    width:52%;
+    background-color: white;
+}
+.contactinfo{
+    margin-top:70px;
+     background-color: white;
+     padding:10px;
+     width:52%;
+     position: absolute;
+     margin-left:19.8%;
+     margin-right:10%;
+     margin-bottom:15px;
+     
+}
+.btn-primary{
+    /*background-color: none;*/
+    background-color: teal;
+}
+#aboutrow{
+    padding:10px;
+    width:52%;
+    background-color: White;
+    position: absolute;
+    margin-left:19.8%;
+    margin-right:10%;
+}
+.projdiv{
+    margin-bottom:20px;
+}
