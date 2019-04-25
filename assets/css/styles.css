@@ -16,38 +16,55 @@
 #animate{
     background-color:teal;;
     color:white;
+    font-size: 25px
 }
-
 
 a {
     left:0px;
     margin-left:20%;
-    color:white
-    
+    color:white  
+
 }
 
 .navbar{
     background-color:teal;   
 }
+#navbarText{
+    margin-right:400px;
+}
 
  body{
-     background-color:lightgray;
-     width:100%;
-     background-color:white;
-     -webkit-animation-name: example; 
-     -webkit-animation-duration: 4s; 
-    
-     animation: example 4s infinite;   
-     animation-direction: alternate;   
+     /* background-color:lightgray; */
+        background-image: url('seattleTwo.jpg');
+      
+        background-repeat: no-repeat;
+        width:100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-position: 100% top;
+        background-attachment: fixed;
+        animation: example 5s infinite; 
+        animation-delay: 5s;  
+        animation-direction: alternate; 
+       
+        
    }
    @keyframes example {
-       from {background-color: rgb(194, 209, 209);}
-       to {background-color:rgb(100, 194, 194);}
-     }
+       from {background-image: url('seattleTwo.jpg')}
+       to {background-image: url('globe.jpg');}
+   }
+   /* @keyframes example {
+       from {background-image: url('seattle.jpg')}
+        to {background-image: url('amzn.jpg');}
+     } */
      
  #container{
     margin-top:100px;
-  
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
  }
  .row{
   margin-left:20%;
@@ -87,10 +104,33 @@ a {
      margin-left:19.8%;
      margin-right:10%;
      margin-bottom:15px;
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
  }
+ .contactinfo{
+    margin-top:70px;
+     background-color: white;
+     padding:10px;
+     width:52%;
+     position: absolute;
+     margin-left:19.8%;
+     margin-right:10%;
+     margin-bottom:15px;
+     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+   
+     
+}
  .projdiv{
     position: relative;
-    width: 140px 
+    width: 140px;
+    margin-bottom:20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
  }
  .firstWriting{
     position: absolute;
@@ -175,17 +215,7 @@ a {
     width:52%;
     background-color: white;
 }
-.contactinfo{
-    margin-top:70px;
-     background-color: white;
-     padding:10px;
-     width:52%;
-     position: absolute;
-     margin-left:19.8%;
-     margin-right:10%;
-     margin-bottom:15px;
-     
-}
+
 .btn-primary{
     /*background-color: none;*/
     background-color: teal;
@@ -197,6 +227,9 @@ a {
     position: absolute;
     margin-left:19.8%;
     margin-right:10%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .projdiv{
     margin-bottom:20px;
