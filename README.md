@@ -1,6 +1,6 @@
 # Updated-Portfolio
 
-Author:
+## Author
 Ebrima Saho
 
 About:
