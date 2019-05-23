@@ -203,6 +203,16 @@ a {
     width:100%;
     height:40px;
     }
+    .nine{
+        position: absolute;
+        text-align: center;
+        bottom:0;
+        left:0;
+        color:white;
+        background-color: teal;
+        width:100%;
+        height:40px;
+        }
 
 .links{
     width:100%;
