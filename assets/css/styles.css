@@ -254,9 +254,9 @@ a {
     background-color: teal;
 }
 #aboutrow{
-    padding:10px;
+    padding:8px;
     /* width was 52% */
-    width:55%;
+    width:54%;
     background-color: White;
     position: absolute;
     margin-left:19.8%;
