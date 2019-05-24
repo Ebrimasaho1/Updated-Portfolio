@@ -83,6 +83,8 @@ a {
  }
  p {
      /* float:right; */
+     float:right;
+     width:auto;
  }
  footer {
     position:fixed;
