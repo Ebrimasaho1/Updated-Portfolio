@@ -255,7 +255,7 @@ a {
 #aboutrow{
     padding:10px;
     /* width was 52% */
-    width:55%;
+    width:54%;
     background-color: White;
     position: absolute;
     margin-left:19.8%;
@@ -263,6 +263,9 @@ a {
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#writing{
+    width:auto;
 }
 .projdiv{
     margin-bottom:20px;
