@@ -254,6 +254,7 @@ a {
 }
 #aboutrow{
     padding:10px;
+    /* width was 52% */
     width:52%;
     background-color: White;
     position: absolute;
