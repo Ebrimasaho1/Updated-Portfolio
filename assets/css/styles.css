@@ -84,7 +84,7 @@ a {
  }
  p {
      
-     float:right;
+     /* float:right; */
      width:100%;
      font-size: auto;
  }
