@@ -14,7 +14,7 @@
     color:white;
 }
 #animate{
-    background-color:teal;;
+    background-color:teal;
     color:white;
     font-size: 25px
 }
@@ -61,6 +61,8 @@ a {
      
  #container{
     margin-top:100px;
+    margin-left:20.3%;
+    width:52%;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -79,8 +81,8 @@ a {
      color:teal;
  }
  p {
-     float:right;
-     margin-left:-10px
+     /* float:right; */
+     width:auto;
  }
  footer {
     position:fixed;
@@ -96,14 +98,28 @@ a {
     border-top-color:teal;
 
  }
+ #aboutrow{
+    padding:10px;
+    width:52%;
+    background-color: White;
+    position: absolute;
+    margin-left:-10px;
+    margin-right:10%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+#mediaBody{
+ width:100%;
+}
+
  .portcontainer {
      margin-top:100px;
      background-color: white;
      padding:10px;
-     /* width was 52% */
-     width:54%; 
+     width:52%;
      position: absolute;
-     margin-left:19.8%;
+     margin-left:20.3%;
      margin-right:10%;
      margin-bottom:15px;
      -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -115,9 +131,9 @@ a {
     margin-top:100px;
      background-color: white;
      padding:10px;
-     width:54%;
+     width:52%;
      position: absolute;
-     margin-left:19.8%;
+     margin-left:20.3%;
      margin-right:10%;
      margin-bottom:15px;
      -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -128,6 +144,7 @@ a {
 }
  .projdiv{
     position: relative;
+    margin-bottom:20px;
     width: 140px;
     margin-bottom:20px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -245,7 +262,7 @@ a {
     margin-top:0;
 }
 .contactdetails{
-    /*Ref: width was 52% */
+    /* width was 52% */
     width:auto;
     background-color: white;
 }
@@ -254,21 +271,4 @@ a {
     /*background-color: none;*/
     background-color: teal;
 }
-#aboutrow{
-    padding:8px;
-    /* width was 52% */
-    width:54%;
-    background-color: White;
-    position: absolute;
-    margin-left:19.8%;
-    margin-right:10%;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-}
-#writing{
-    width:100%;
-}
-.projdiv{
-    margin-bottom:20px;
-}
+
