@@ -80,6 +80,7 @@ a {
  }
  p {
      float:right;
+     margin-left:-10px
  }
  footer {
     position:fixed;
