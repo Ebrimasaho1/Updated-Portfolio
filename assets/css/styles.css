@@ -61,6 +61,9 @@ a {
      
  #container{
     margin-top:100px;
+    /* New changes below  */
+    margin-left:20.3%;
+    width:52%;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -256,7 +259,7 @@ a {
     width:52%;
     background-color: White;
     position: absolute;
-    margin-left:19.8%;
+    margin-left:-10px;
     margin-right:10%;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
