@@ -82,9 +82,10 @@ a {
      color:teal;
  }
  p {
-     /* float:right; */
-     /* float:right; */
+     
+     float:right;
      width:100%;
+     font-size: auto;
  }
  footer {
     position:fixed;
