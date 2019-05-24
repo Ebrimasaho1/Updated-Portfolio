@@ -59,7 +59,7 @@ a {
         to {background-image: url('amzn.jpg');}
      } */
      
- #container{
+ .media{
     margin-top:100px;
     /* New changes below  */
     background-color: white;
@@ -102,11 +102,7 @@ a {
     border-top-color:teal;
 
  }
- #mediaBody{
-    width:100%;
-    /* margin-left: -10px; */
-   }
-   
+ 
  .portcontainer {
      margin-top:100px;
      background-color: white;
