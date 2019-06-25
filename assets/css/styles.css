@@ -35,7 +35,7 @@ a {
 
  body{
      /* background-color:lightgray; */
-        background-image: url('seattleTwo.jpg');
+        background-color: #8aadb4;
       
         background-repeat: no-repeat;
         width:100%;
@@ -44,15 +44,15 @@ a {
         -o-background-size: cover;
         background-position: 100% top;
         background-attachment: fixed;
-        animation: example 5s infinite; 
-        animation-delay: 5s;  
+        animation: example 15s infinite; 
+        animation-delay: 15s;  
         animation-direction: alternate; 
        
         
    }
    @keyframes example {
-       from {background-image: url('seattleTwo.jpg')}
-       to {background-image: url('globe.jpg');}
+       from {background-color: #8aadb4}
+       to {background-color: #596e72;}
    }
    /* @keyframes example {
        from {background-image: url('seattle.jpg')}
@@ -71,7 +71,7 @@ a {
    
  }
  .row{
-  margin-left:20%;
+  /* margin-left:20%; */
  }
 
  img{
@@ -242,10 +242,10 @@ a {
     position:relative;
 }
 #rowpic{
-    background:white;
-    margin-right:-20px;
-    margin-left:-25px;
-    margin-top:0%;
+    /* background:white; */
+    /* margin-right:-20px;
+    margin-left:-25px; */
+    /* margin-top:0%; */
 }
 #portfoliopage{
     margin-top:0;
@@ -259,17 +259,39 @@ a {
     /*background-color: none;*/
     background-color: teal;
 }
-/* #aboutrow{
-    padding:10px;
+#projectCard{
+    background-color: white;
+    height:auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
     width:52%;
-    background-color: White;
-    position: absolute;
-    margin-left:-10px;
-    margin-right:10%;
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-} */
+    /* margin-left:20.3%;
+    margin-right:10%; */
+    padding:10px;
+}
+#about-section{
+    text-align: center;
+}
+#portpictures{
+    background-color: white;
+    height:auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width:52%;
+    /* margin-left:20.3%;
+    margin-right:10%; */
+    padding:10px;
+}
+#imgPort{
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 200px;
+    height:200px;
+}
+.main-section{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
 .projdiv{
     margin-bottom:20px;
 }
