@@ -16,12 +16,11 @@
 #animate{
     background-color:teal;;
     color:white;
-    font-size: 25px
+    font-size: 25px;
 }
-
 a {
-    left:0px;
-    margin-left:20%;
+    /* left:0px; */
+    margin-left:23%;
     color:white  
 
 }
@@ -268,6 +267,9 @@ a {
     /* margin-left:20.3%;
     margin-right:10%; */
     padding:10px;
+}
+#navCard{
+    width:52%; 
 }
 #about-section{
     text-align: center;
